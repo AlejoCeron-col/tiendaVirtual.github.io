@@ -79,7 +79,7 @@ form{
 
     font-family: "Fugaz One", sans-serif;
     font-size: 170%;
-
+    
 
 }
 .user{
@@ -372,11 +372,23 @@ h2{
 
 .delete{
 
-    width: 80px;
-    height: 70px;
+    width: 70px;
+    height: 60px;
+    background-color: transparent;
     justify-self: right;
     position:relative;
-    bottom: 177px;
+    bottom: 5.4em;
+    left: auto;
+
+}
+
+.deleteimg{
+
+    width: 80px;
+    height: 70px;
+    bottom: 0.4em;
+    position: relative;
+    
 
 }
 

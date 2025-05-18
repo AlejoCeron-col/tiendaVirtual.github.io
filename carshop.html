@@ -31,46 +31,7 @@
         </header>
 
         <div class = gridcon>
-            <div class = cont1>
-                <div class="cntcr ">
-                    <img class = "box2" src="box.jpg" alt="producto">
-                    <div class="txtcr">
-                        <p class="txt1">
-                            Producto A
-                        </p>
-                        <p class="txt1">
-                            $******
-                        </p>
-                    </div>
-                    <img class="delete" src="iconx.png" alt="eliminar">
-                </div>
-
-                <div class="cntcr ">
-                    <img class = "box2" src="box.jpg" alt="producto">
-                    <div class="txtcr">
-                        <p class="txt1">
-                            Producto A
-                        </p>
-                        <p class="txt1">
-                            $******
-                        </p>
-                    </div>
-                    <img class="delete" src="iconx.png" alt="eliminar">
-                </div>
-
-                <div class="cntcr ">
-                    <img class = "box2" src="box.jpg" alt="producto">
-                    <div class="txtcr">
-                        <p class="txt1">
-                            Producto A
-                        </p>
-                        <p class="txt1">
-                            $******
-                        </p>
-                    </div>
-                    <img class="delete" src="iconx.png" alt="eliminar">
-                </div>
-            </div>
+            <div class = cont1 id="cont1"></div>
 
             <div class = cnt2>
                 <h1 class="tlcr">
@@ -78,15 +39,15 @@
                 </h1>
 
                 <p class="txt1">
-                    Subtotal  
+                    Subtotal: $<span id = "subtotal">0</span>
                 </p>
                     
                 <p class="txt1">
-                    IVA
+                    IVA: $<span id = "iva">0</span>
                 </p>
 
                 <p class="txt1">
-                    Total
+                    Total: $<span id = "total">0</span>
                 </p>
 
                 <button class="pago">
@@ -97,6 +58,8 @@
         </div>
 
     </div>
+
+    <script src="controlcar.js"></script>
     
      
     
